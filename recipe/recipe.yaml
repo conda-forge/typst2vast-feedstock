@@ -1,5 +1,5 @@
 context:
-  version: "0.1.0"
+  version: "0.2.0"
 
 package:
   name: typst2vast
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/jdkato/typst2vast/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: ca818ed38824cc3033f9aaec7de44bb049a7bc41e537731016bcc2d51adeaf02
+  sha256: ae246fc6d0b3f249f8c839a22a98054e489572a029ad0189b25968140d8560a6
 
 build:
-  number: 1
+  number: 0
   script:
     - if: unix
       then:
